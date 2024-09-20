@@ -3063,8 +3063,8 @@ html.no-csstransitions .hero-content {
 
 .social-list__icon {
     display: block;
-    width: 4.8rem;
-    height: 4.8rem;
+    width: 5rem;
+    height: 5rem;
     border-radius: 50%;
     border: 1px solid #ffffff;
     margin-right: 2rem;
@@ -3074,8 +3074,8 @@ html.no-csstransitions .hero-content {
 .social-list__icon::before {
     content: "";
     display: block;
-    height: 2rem;
-    width: 2rem;
+    height: 3rem;
+    width: 3rem;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -3092,6 +3092,10 @@ html.no-csstransitions .hero-content {
 
 .social-list__icon--twitter::before {
     background-image: url(../images/icons/social/icon-twitter.svg);
+}
+
+.social-list__icon--youtube::before {
+    background-image: url(../images/icons/social/youtube-brands-solid.svg);
 }
 
 .social-list__icon--instagram::before {
